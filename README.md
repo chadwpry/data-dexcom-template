@@ -3,7 +3,7 @@
 A project template to research Dexcom CGM data
 
 
-### installation
+### Installation
 
 #### Setup JQ
 
