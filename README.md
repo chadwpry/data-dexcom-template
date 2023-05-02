@@ -1,13 +1,23 @@
 # Dexcom Research Project
 
 A project template to research Dexcom CGM data
-=======
-# Data Project Example
-
-This is an example template to use for research classroom studies in my SQL training.
 
 
-### Converting json files into csv data
+### installation
+
+#### Setup JQ
+
+More information about JQ can be found at
+[https://stedolan.github.io/jq/](https://stedolan.github.io/jq/). It is
+necessary to convert json files into a CSV file. The Makefile already
+includes a reference to jq. If you attempt the following converting routine
+before installing JQ, an error will be returned.
+
+```sh
+brew install jq
+```
+
+### Converting json files into CSV file
 
 Execute the following script via your command line. A new file will be created
 within the data directory named egvs.csv. It will contain records from all
